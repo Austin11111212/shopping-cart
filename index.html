@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <main class="container">
+        <div id="leftBox">
+            <h2>Cart Items</h2>
+            <div id="cartList">
+                <!-- List of items will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="rightBox">
+            <h2>Cart Summary</h2>
+            <div id="cartSummary">
+                <p>Total Items: <span id="totalItems">0</span></p>
+                <p>Total Price: ₦<span id="totalPrice">0.00</span></p>
+                <button id="checkoutButton">Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
